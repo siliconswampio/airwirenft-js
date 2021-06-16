@@ -29,6 +29,7 @@ exports.ParserTypes = {
     bytes: new ByteParser_1.ByteParser(),
     string: new StringParser_1.default(),
     image: new StringParser_1.default(),
+    file: new StringParser_1.default(),
     ipfs: new IPFSParser_1.default(),
     float: new FloatingParser_1.default(false),
     double: new FloatingParser_1.default(true)

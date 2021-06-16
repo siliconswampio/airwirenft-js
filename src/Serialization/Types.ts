@@ -28,7 +28,8 @@ export const ParserTypes: { [id: string]: ITypeParser } = {
 
     bytes: new ByteParser(),
     string: new StringParser(),
-    image: new StringParser(),    
+    image: new StringParser(),
+    file: new StringParser(),
 
     ipfs: new IPFSParser(),
     float: new FloatingParser(false),
